@@ -116,6 +116,7 @@ int main(){
 
 //question 10
 */
+
 #include<stdio.h>
 int main(){
     
