@@ -59,6 +59,93 @@ int main()
     return 0;
 }
 
+//3 )
+
+#include <stdio.h>
+
+int main()
+{
+    int a ,b ,c ,d ,e ;    
+    
+    printf("Enter 5 numbers.");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    
+    if(a>b && a>c && a>d && a>e)
+    {
+        printf("%d is greater",a);
+    }
+    else if(b>a && b>c && b>d && b>e)
+    {
+        printf("%d is greater",b);
+    }
+    else if(c>a && c>b && c>d && c>e)
+    {
+        printf("%d is greater",c);
+    }
+     else if(d>a && d>c && d>b && d>e)
+    {
+        printf("%d is greater",d);
+    }
+    else
+    {
+       printf("%d is greater",e); 
+    }
+    return 0;
+}
+//4 )
+
+#include <stdio.h>
+
+int main()
+{
+    int a ,b ,c ,d ,e, f, g, h, i, j;    
+    
+    printf("Enter 10 numbers.");
+    scanf("%d %d %d %d %d %d %d %d %d %d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+    
+    if(a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>i && a>j)
+    {
+        printf("%d is greater",a);
+    }
+    else if(b>a && b>c && b>d && b>e && b>f && b>g && b>h && b>i && b>j)
+    {
+        printf("%d is greater",b);
+    }
+    else if(c>a && c>b && c>d && c>e && c>f && c>g && c>h && c>i && c>j)
+    {
+        printf("%d is greater",c);
+    }
+    else if(d>a && d>c && d>b && d>e && d>f && d>g && d>h && d>i && d>j)
+    {
+        printf("%d is greater",d);
+    }
+    else if(e>a && e>c && e>b && e>d && e>f && e>g && e>h && e>i && e>j)
+    {
+        printf("%d is greater",e);
+    }
+    else if(f>a && f>c && f>b && f>e && f>d && f>g && f>h && f>i && f>j)
+    {
+        printf("%d is greater",f);
+    }
+    else if(g>a && g>c && g>b && g>e && g>f && g>d && g>h && g>i && g>j)
+    {
+        printf("%d is greater",g);
+    }
+    else if(h>a && h>c && h>b && h>e && h>f && h>g && h>d && h>i && h>j)
+    {
+        printf("%d is greater",h);
+    }
+    else if(i>a && i>c && i>b && i>e && i>f && i>g && i>h && i>d && i>j)
+    {
+        printf("%d is greater",i);
+    }
+    else
+    {
+       printf("%d is greater",j); 
+    }
+    return 0;
+}	
+
 //5 )
 
 #include <stdio.h>
